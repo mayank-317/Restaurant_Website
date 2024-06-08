@@ -1,0 +1,21 @@
+Topic : Restaurant Website
+
+Team: 
+1. Name : Mayank Gangadhar Warkade
+   UCID : 2023510067
+
+2. Name : Nitin Kumar Yadav
+   UCID : 2023510068
+
+3. Name : Harshil Pragnesh vasani
+   UCID : 2023510062
+
+
+1. Mayank Warkade : a) home page
+                    b) Menu page
+
+2. Nitin Kumar Yadav : a) reservation page 
+                       b) login/signup page
+                    
+3. Harshil Vasani : a) aboutUs page
+                    b) contactUs page

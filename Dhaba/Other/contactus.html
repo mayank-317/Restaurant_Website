@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaba/Contact</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="rest-name">
+            <a href="#" class="logo"><img src="../images/logo.png"></a>
+            <p>Dhaba</p>
+        </div>
+        <nav class="navbar">
+            <a href="../index.html">home</a>
+            <a href="aboutus.html">about</a>
+            <a href="../Menu/menu.html">menu</a>
+            <a href="table.html">reservation</a>
+            <a href="contactus.html">contact</a>
+        </nav>
+    </header>
+    <main id="main1">
+        <section>
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <!-- <input class="btn btn-light" type="submit" value="Submit" onclick="submit()"> -->
+                <button type="button" class="btn btn-light" onclick="submit()">Submit</button>
+            </form>
+        </section>
+        <section>
+    </main>
+    <!-- footer-section -->
+    <div class="footer">
+        <footer class="footer-section1">
+            <div class="footer-top">
+                <div class="rest-name">
+                    <a href="#" class="logo"><img src="../images/logo.png"></a>
+                    <p>Dhaba</p>
+                </div>
+                <div class="footer-text">
+                    <p>
+                        We combine taste and quality to serve you a delightful array of mouthwatering
+                        dishes, crafted with passion and made to perfection.
+                    </p>
+                </div>
+                <div class="footer-social-icon">
+                    <a href="https://www.instagram.com/mayank.warkade17/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/mayank317.warkade" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/WarkadeMayank" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/mayank-warkade-442917217/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="contact-info">
+                    <h6>Address:</h6>
+                    <p><i class="fa fa-map"></i> Munshi Nagar, Andheri West, Mumbai-400058</p>
+                    <p><a href="https://maps.app.goo.gl/AiBkiavwN1zdYfQLA" target="_blank">Get Directions</a>
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <h6>Phone:</h6>
+                    <p><i class="fa fa-phone"></i>+91 8830079582</p>
+                    <p><i class="fa fa-phone"></i>+91 8830079582</p>
+                </div>
+                <div class="contact-info">
+                    <h6>Email:</h6>
+                    <p><i class="fa fa-envelope"></i> mayankwarkade317@gmail.com</p>
+                    <p><i class="fa fa-envelope"></i> mayankwarkade317@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+        <footer class="footer-section2">
+            <div class="copyright-area">
+                <div class="copyright-text">
+                    <p>Dhaba © 2023</p>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function submit() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+    
+            if (name === "" || email === "" || message === "") {
+                alert("Fields can not be empty");
+            } else {
+                alert("Request sent successfully");
+            }
+        }
+    </script>
+</body>
+
+</html>
