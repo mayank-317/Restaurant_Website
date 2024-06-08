@@ -31,7 +31,6 @@ Dhaba is a restaurant website, comprising solely of Front-end elements. It inclu
 
 ### Built With
 
-Dhaba:
 HTML
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="50" height="50">
 
@@ -39,7 +38,7 @@ CSS
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="50" height="50">
 
 Javascript
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" width="50" height="50">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" width="30" height="30">
 
 
 
